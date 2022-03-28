@@ -1,0 +1,17 @@
+commons-io-2.11.0.jar
+dom4j-1.6.1.jar
+geojson-jackson-1.14.jar
+istack-commons-runtime-4.0.1.jar
+jackson-annotations-2.13.0.jar
+jackson-core-2.13.0.jar
+jackson-databind-2.13.0.jar
+jakarta.activation-2.0.1.jar
+jakarta.xml.bind-api-3.0.1.jar
+javax.servlet-api-4.0.1.jar
+jaxb-core-3.0.2.jar
+jaxb-runtime-3.0.2.jar
+jaxen-1.1.3.jar
+jdom-1.1.3.jar
+log4j-1.2.17.jar
+opencsv-2.4.jar
+txw2-3.0.2.jar

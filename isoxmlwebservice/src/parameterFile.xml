@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xml>
+<Konfiguration>
+   <Security>
+    <!-- change after installation -->
+    <Parameter name="haskKey"><!--hashKey--></Parameter>
+  </Security>
+  <General>
+    <Parameter name="charset">UTF-8</Parameter>
+  </General>
+  <ISOXML>
+    <Parameter name="taskDataFilename">TASKDATA.xml</Parameter>
+    <Parameter name="isoxmlTaskXsdDatei">WEB-INF/classes/ISO11783_TaskFile_V4-3.xsd</Parameter>
+    <Parameter name="versionMajor">4</Parameter>
+    <Parameter name="versionMinor">3</Parameter>
+    <Parameter name="managementSoftwareManufacturer">GID</Parameter>
+    <Parameter name="managementSoftwareVersion">1</Parameter>
+    <Parameter name="dataTransferOrigin">1</Parameter>
+    <Parameter name="ddiFilename">ddi_2021.csv</Parameter>
+  </ISOXML>
+  <GeoJSON>
+    <Parameter name="geoJsonFilename">TASKDATA.geojson</Parameter>
+  </GeoJSON>
+  <DataWareHouse>
+    <Parameter name="activateDataStorage">true</Parameter>
+    <Parameter name="postTaskHarvestToDoURL"><!--urlHarvestToDo--></Parameter>
+    <Parameter name="postTaskHarvestResultURL"><!--urlHarvestComplete--></Parameter>
+    <Parameter name="postTaskSprayToDoURL"><!--urlSprayToDo--></Parameter>
+    <Parameter name="postTaskSprayResultURL"><!--urlSprayComplete--></Parameter>
+  </DataWareHouse>
+</Konfiguration>
