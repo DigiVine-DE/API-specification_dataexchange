@@ -2,7 +2,7 @@ package isoxml.bean;
 
 
 /**
- * Geometry TaskData
+ * Plant Protection TaskData
  *
  */
 public class TaskInformationPlantProtection {
