@@ -803,7 +803,7 @@ public class TaskManager extends HttpServlet implements ManagerInterface {
     }
     
     private String createSubstring(Object object, int length) {
-        if (object != null && object.toString().length() > 0) {
+        if (object != null) {
             String string = object.toString();
             if (string.length() < length) {
                 length = string.length();
